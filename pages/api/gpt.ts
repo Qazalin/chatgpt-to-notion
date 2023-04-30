@@ -59,7 +59,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         });
 
         notionPageId = newPage.id;
-
         await db
             .insertInto("notion_recorded_chats")
             .values({
@@ -174,8 +173,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         block_id: notionPageId,
         children: notionBlocks,
     });
-
-    console.log(JSON.stringify(notionBlocks, null, 2));
 
     // P3. Update the last message
     await db

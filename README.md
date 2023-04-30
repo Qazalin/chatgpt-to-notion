@@ -39,7 +39,7 @@ Enter `page-id`'s value in `NOTION_BASE_PAGE_ID` - This will be the base page wh
 We use planetscale to keep track of the mapping of chatgpt chat ids to notion pages + what was the latest msg we synced
 
 1. Create a Planetscale account and a database
-2. Run `setup.sql` in a shell
+2. Run `./scripts/setup.sql` in a shell
 3. Get the DB url and add it to .env.local as `DATABASE_URL`
 
 ### Vercel setup
