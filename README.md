@@ -55,5 +55,3 @@ This is optional, you can also run this locally and just add localhost's url as 
 2. Paste in the script at `./scripts/saveChats.js` to the devtools console
 
 As new messages flow in, the code will auto-save the content to your notion page.
-# chatgpt-to-notion
-# chatgpt-to-notion
