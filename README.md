@@ -5,7 +5,12 @@
 chat.openai.com currently doesn't have builtin search and organization functionality. All the chats are listed in a very basic interface. This makes it really hard to organize and search through past chats.
 This _experimental_ project attempts to solve this problem by creating a script paird with an API to send messages from ChatGPT to your Notion account.
 
-![demo video]()
+
+
+https://user-images.githubusercontent.com/77887910/235661634-22a1c99c-48ff-4dce-a688-73078e134dbc.mp4
+
+
+
 
 ## Features
 
