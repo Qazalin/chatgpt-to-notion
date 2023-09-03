@@ -60,3 +60,12 @@ This is optional, you can also run this locally and just add localhost's url as 
 2. Paste in the script at `./scripts/saveChats.js` to the devtools console
 
 As new messages flow in, the code will auto-save the content to your notion page.
+
+### Whitelisting localhost on adblockers
+
+If you're using shields (ie. Brave browswer), you might need to allow for requests to go through localhost from the clientside. Add the following:
+```
+@@||localhost^$domain=<domain>
+@@||127.0.0.1^$domain=<domain>
+```
+to your ad blocker config. [Related issues](https://github.com/brave/brave-browser/issues/15004)https://github.com/brave/brave-browser/issues/15004
